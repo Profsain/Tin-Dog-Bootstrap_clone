@@ -1,9 +1,9 @@
 body {
   font-family: "Montserrat", sans-serif;
-  color: #fff;
 }
 #title {
   background-color: #ff4c68;
+  color: #fff;
 }
 
 .container-fluid {
@@ -15,6 +15,14 @@ h1 {
   font-size: 3.5rem;
   font-weight: 900;
   line-height: 1.5;
+}
+
+h3 {
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
 }
 
 /* Navigation bar */
@@ -46,4 +54,19 @@ h1 {
 .title-image {
   width: 60%;
   transform: rotate(25deg);
+}
+
+/* Feature section */
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  margin-bottom: 1rem;
+  color: #ef8179;
+}
+
+.icon:hover {
+  color: #ff4c68;
 }
